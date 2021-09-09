@@ -10,9 +10,6 @@ sudo apt-get upgrade -y
 # install git
 sudo apt-get install git -y
 
-# install npm
-sudo apt-get install npm -y
-
 # install nodejs
 sudo apt-get install python-software-properties -y
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
