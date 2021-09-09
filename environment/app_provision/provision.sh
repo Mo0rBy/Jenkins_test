@@ -26,7 +26,7 @@ sudo rm /etc/nginx/sites-available/default
 sudo ln -s /home/ubuntu/provision/default.txt /etc/nginx/sites-available/default
 
 #Write DB_HOST variable to /etc/environment file (Ensures persistent environment variable)
-echo "DB_HOST=mongodb://192.168.10.150:27017/posts" | sudo tee -a /etc/environment
+#echo "DB_HOST=mongodb://192.168.10.150:27017/posts" | sudo tee -a /etc/environment
 
 #Restart nginx to implement config changes
 sudo systemctl restart nginx
